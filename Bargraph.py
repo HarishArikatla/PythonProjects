@@ -16,9 +16,7 @@ data = {'Amazon':39, 'Walmart':6, 'Ebay':5,'Apple':4}
 courses = list(data.keys()) 
 
 values = list(data.values())
-fig = plt.figure(figsize = (3, 5))
-
-# creating the bar plot
+fig = plt.figure(figsize = (3, 5)
 
 plt.bar (courses, values, color ='maroon', width = 0.4)
 
